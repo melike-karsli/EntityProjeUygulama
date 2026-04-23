@@ -15,3 +15,7 @@ Bu uygulama ile CRUD (Create, Read, Update, Delete) işlemlerini EF Core üzerin
 * Veri tabanı tablolarının Model (Entity) olarak tanımlanması.
 * LINQ sorguları ile veri listeleme ve filtreleme.
 * Context yapısı üzerinden veri tabanı bağlantı yönetimi.
+
+🏗️ Mimari Yapı
+* **Code First / Database First:** (Hangisini kullandıysan onu yazabilirsin) yaklaşımı ile veritabanı tasarımı.
+* **DbContext:** Veritabanı bağlantısı ve tablo eşleşmelerinin yönetimi.
