@@ -1,0 +1,17 @@
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\bin\Debug\EntıtyProjeUygulama.exe.config
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\bin\Debug\EntıtyProjeUygulama.exe
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\bin\Debug\EntıtyProjeUygulama.pdb
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\bin\Debug\EntityFramework.dll
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\bin\Debug\EntityFramework.xml
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.csproj.AssemblyReference.cache
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.Form1.resources
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.Frmanaform.resources
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.FrmUrun.resources
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.Properties.Resources.resources
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.csproj.GenerateResource.cache
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.csproj.CoreCompileInputs.cache
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\Ent_tyPr.38D97A31.Up2Date
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.exe
+Z:\Projeler\C# 2025\EntıtyProjeUygulama\EntıtyProjeUygulama\obj\Debug\EntıtyProjeUygulama.pdb

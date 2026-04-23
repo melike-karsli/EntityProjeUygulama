@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbEntıtyUrunModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KATEGORI">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="MUSTERI">
+    <Key>
+      <PropertyRef Name="MUSTERIID" />
+    </Key>
+    <Property Name="MUSTERIID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MUSTERIADI" Type="varchar" MaxLength="30" />
+    <Property Name="MUSTERISOYAD" Type="varchar" MaxLength="30" />
+    <Property Name="SEHIR" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="SATIS">
+    <Key>
+      <PropertyRef Name="SATISID" />
+    </Key>
+    <Property Name="SATISID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUN" Type="int" />
+    <Property Name="MUSTERI" Type="int" />
+    <Property Name="FIYAT" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="TARIH" Type="smalldatetime" />
+  </EntityType>
+  <EntityType Name="URUN">
+    <Key>
+      <PropertyRef Name="URUNID" />
+    </Key>
+    <Property Name="URUNID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="URUNADI" Type="varchar" MaxLength="30" />
+    <Property Name="MARKA" Type="varchar" MaxLength="50" />
+    <Property Name="STOK" Type="smallint" />
+    <Property Name="FIYAT" Type="decimal" Precision="18" Scale="2" />
+    <Property Name="DURUM" Type="bit" />
+    <Property Name="KATEGORI" Type="int" />
+  </EntityType>
+  <Association Name="FK_SATIS_MUSTERI">
+    <End Role="MUSTERI" Type="Self.MUSTERI" Multiplicity="0..1" />
+    <End Role="SATIS" Type="Self.SATIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MUSTERI">
+        <PropertyRef Name="MUSTERIID" />
+      </Principal>
+      <Dependent Role="SATIS">
+        <PropertyRef Name="MUSTERI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SATIS_URUN">
+    <End Role="URUN" Type="Self.URUN" Multiplicity="0..1" />
+    <End Role="SATIS" Type="Self.SATIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="URUN">
+        <PropertyRef Name="URUNID" />
+      </Principal>
+      <Dependent Role="SATIS">
+        <PropertyRef Name="URUN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_URUN_KATEGORI">
+    <End Role="KATEGORI" Type="Self.KATEGORI" Multiplicity="0..1" />
+    <End Role="URUN" Type="Self.URUN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="URUN">
+        <PropertyRef Name="KATEGORI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbEntıtyUrunModelStoreContainer">
+    <EntitySet Name="KATEGORI" EntityType="Self.KATEGORI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MUSTERI" EntityType="Self.MUSTERI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SATIS" EntityType="Self.SATIS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="URUN" EntityType="Self.URUN" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_SATIS_MUSTERI" Association="Self.FK_SATIS_MUSTERI">
+      <End Role="MUSTERI" EntitySet="MUSTERI" />
+      <End Role="SATIS" EntitySet="SATIS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SATIS_URUN" Association="Self.FK_SATIS_URUN">
+      <End Role="URUN" EntitySet="URUN" />
+      <End Role="SATIS" EntitySet="SATIS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_URUN_KATEGORI" Association="Self.FK_URUN_KATEGORI">
+      <End Role="KATEGORI" EntitySet="KATEGORI" />
+      <End Role="URUN" EntitySet="URUN" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

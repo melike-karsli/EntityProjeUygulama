@@ -1,0 +1,214 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|z:\\projeler\\c# 2025\\ent\u0131typrojeuygulama\\ent\u0131typrojeuygulama\\frmg\u0131r\u0131s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmg\u0131r\u0131s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|z:\\projeler\\c# 2025\\ent\u0131typrojeuygulama\\ent\u0131typrojeuygulama\\frmg\u0131r\u0131s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmg\u0131r\u0131s.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\ent\u0131typrojeuygulama\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|z:\\projeler\\c# 2025\\ent\u0131typrojeuygulama\\ent\u0131typrojeuygulama\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|z:\\projeler\\c# 2025\\ent\u0131typrojeuygulama\\ent\u0131typrojeuygulama\\frmistatistik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmistatistik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\ent\u0131typrojeuygulama\\frmistatistik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmistatistik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\ent\u0131typrojeuygulama\\frmanaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmanaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\ent\u0131typrojeuygulama\\frmanaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmanaform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\ent\u0131typrojeuygulama\\frmurun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmurun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\ent\u0131typrojeuygulama\\frmurun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\frmurun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\ent\u0131typrojeuygulama\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6BD0782C-E7B2-4478-9CD6-F96C8CF9AE69}|Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama.csproj|solutionrelative:ent\u0131typrojeuygulama\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frmg\u0131r\u0131s.cs",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T18:50:08.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Program.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Program.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Program.cs",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T18:46:39.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Frmg\u0131r\u0131s.cs [Design]",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs [Design]",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Frmg\u0131r\u0131s.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T18:45:06.728Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Model1.edmx",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Model1.edmx",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-04-23T11:32:12.11Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Frmistatistik.cs",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmistatistik.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Frmistatistik.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmistatistik.cs",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Frmistatistik.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAASwCIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T10:09:03.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Frmistatistik.cs [Design]",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmistatistik.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Frmistatistik.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmistatistik.cs [Design]",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Frmistatistik.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:44:38.224Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Frmanaform.cs",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmanaform.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Frmanaform.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmanaform.cs",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Frmanaform.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAArwCUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T09:17:06.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Form1.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Form1.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Form1.cs [Design]",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T09:08:19.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmUrun.cs",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\FrmUrun.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\FrmUrun.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\FrmUrun.cs",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\FrmUrun.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwBwAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T19:55:32.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmUrun.cs [Design]",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\FrmUrun.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\FrmUrun.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\FrmUrun.cs [Design]",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\FrmUrun.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T09:08:17.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Frmanaform.cs [Design]",
+              "DocumentMoniker": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmanaform.cs",
+              "RelativeDocumentMoniker": "Ent\u0131tyProjeUygulama\\Frmanaform.cs",
+              "ToolTip": "Z:\\Projeler\\C# 2025\\Ent\u0131tyProjeUygulama\\Ent\u0131tyProjeUygulama\\Frmanaform.cs [Design]",
+              "RelativeToolTip": "Ent\u0131tyProjeUygulama\\Frmanaform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T09:08:08.286Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1093,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

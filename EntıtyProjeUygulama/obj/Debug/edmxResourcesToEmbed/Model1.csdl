@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbEntıtyUrunModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="KATEGORI">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="URUN" Relationship="Self.FK_URUN_KATEGORI" FromRole="KATEGORI" ToRole="URUN" />
+  </EntityType>
+  <EntityType Name="MUSTERI">
+    <Key>
+      <PropertyRef Name="MUSTERIID" />
+    </Key>
+    <Property Name="MUSTERIID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MUSTERIADI" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MUSTERISOYAD" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="SEHIR" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SATIS" Relationship="Self.FK_SATIS_MUSTERI" FromRole="MUSTERI" ToRole="SATIS" />
+  </EntityType>
+  <EntityType Name="SATIS">
+    <Key>
+      <PropertyRef Name="SATISID" />
+    </Key>
+    <Property Name="SATISID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUN" Type="Int32" />
+    <Property Name="MUSTERI" Type="Int32" />
+    <Property Name="FIYAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="TARIH" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="MUSTERI1" Relationship="Self.FK_SATIS_MUSTERI" FromRole="SATIS" ToRole="MUSTERI" />
+    <NavigationProperty Name="URUN1" Relationship="Self.FK_SATIS_URUN" FromRole="SATIS" ToRole="URUN" />
+  </EntityType>
+  <EntityType Name="URUN">
+    <Key>
+      <PropertyRef Name="URUNID" />
+    </Key>
+    <Property Name="URUNID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URUNADI" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="MARKA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="STOK" Type="Int16" />
+    <Property Name="FIYAT" Type="Decimal" Precision="18" Scale="2" />
+    <Property Name="DURUM" Type="Boolean" />
+    <Property Name="KATEGORI" Type="Int32" />
+    <NavigationProperty Name="KATEGORI1" Relationship="Self.FK_URUN_KATEGORI" FromRole="URUN" ToRole="KATEGORI" />
+    <NavigationProperty Name="SATIS" Relationship="Self.FK_SATIS_URUN" FromRole="URUN" ToRole="SATIS" />
+  </EntityType>
+  <Association Name="FK_URUN_KATEGORI">
+    <End Role="KATEGORI" Type="Self.KATEGORI" Multiplicity="0..1" />
+    <End Role="URUN" Type="Self.URUN" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORI">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="URUN">
+        <PropertyRef Name="KATEGORI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SATIS_MUSTERI">
+    <End Role="MUSTERI" Type="Self.MUSTERI" Multiplicity="0..1" />
+    <End Role="SATIS" Type="Self.SATIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MUSTERI">
+        <PropertyRef Name="MUSTERIID" />
+      </Principal>
+      <Dependent Role="SATIS">
+        <PropertyRef Name="MUSTERI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SATIS_URUN">
+    <End Role="URUN" Type="Self.URUN" Multiplicity="0..1" />
+    <End Role="SATIS" Type="Self.SATIS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="URUN">
+        <PropertyRef Name="URUNID" />
+      </Principal>
+      <Dependent Role="SATIS">
+        <PropertyRef Name="URUN" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DbEntıtyUrunEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="KATEGORI" EntityType="Self.KATEGORI" />
+    <EntitySet Name="MUSTERI" EntityType="Self.MUSTERI" />
+    <EntitySet Name="SATIS" EntityType="Self.SATIS" />
+    <EntitySet Name="URUN" EntityType="Self.URUN" />
+    <AssociationSet Name="FK_URUN_KATEGORI" Association="Self.FK_URUN_KATEGORI">
+      <End Role="KATEGORI" EntitySet="KATEGORI" />
+      <End Role="URUN" EntitySet="URUN" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SATIS_MUSTERI" Association="Self.FK_SATIS_MUSTERI">
+      <End Role="MUSTERI" EntitySet="MUSTERI" />
+      <End Role="SATIS" EntitySet="SATIS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SATIS_URUN" Association="Self.FK_SATIS_URUN">
+      <End Role="URUN" EntitySet="URUN" />
+      <End Role="SATIS" EntitySet="SATIS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

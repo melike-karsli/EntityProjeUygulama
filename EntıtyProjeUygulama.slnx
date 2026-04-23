@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="EntıtyProjeUygulama/EntıtyProjeUygulama.csproj" Id="6bd0782c-e7b2-4478-9cd6-f96c8cf9ae69">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+</Solution>
